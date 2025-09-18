@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "minio": {
+    "minio-sentinel": {
       "command": "/home/csle/minio/minio-api-dev/bin/python",
       "args": [
         "/home/csle/minio/mcp-server/minio_mcp_server.py"

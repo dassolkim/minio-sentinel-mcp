@@ -6,5 +6,5 @@ docs/
 .env.production
 
 sample-mcpserver/
-
+mcp_config.json
 
