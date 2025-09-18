@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "minio": {
+      "command": "/home/csle/minio/minio-api-dev/bin/python",
+      "args": [
+        "/home/csle/minio/mcp-server/minio_mcp_server.py"
+      ],
+      "env": {
+        "KEYCLOAK_SERVER_URL": "http://129.254.191.53:8180",
+        "KEYCLOAK_REALM": "minio",
+        "KEYCLOAK_CLIENT_ID": "minio-client",
+        "KEYCLOAK_CLIENT_SECRET": "3XV9fTivjhAvxZy8eMTNjqgt6m5EZQpt",
+        "KEYCLOAK_VERIFY_SSL": "false",
+        "MINIO_API_BASE_URL": "http://localhost:8001",
+        "MINIO_API_TIMEOUT": "60",
+        "MINIO_SECURE": "false",
+        "MINIO_REGION": "us-east-1",
+        "LOG_LEVEL": "INFO"
+      }
+    }
+  }
+}

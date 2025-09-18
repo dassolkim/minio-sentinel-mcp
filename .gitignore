@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+docs/
+.env
+.env.development
+.env.production
+
+sample-mcpserver/
+
+
