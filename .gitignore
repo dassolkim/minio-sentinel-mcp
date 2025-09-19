@@ -8,3 +8,8 @@ docs/
 sample-mcpserver/
 mcp_config.json
 
+deployment/.env
+deployment/docker
+deployment/kubernetes
+deployment/scripts
+deployment/nginx
